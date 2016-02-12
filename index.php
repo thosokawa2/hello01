@@ -1,4 +1,5 @@
 <?php
 echo "<h1>Welcome OpenShift!!</h1>\n";
-echo "<h2>"getenv('ENV_VAR')"</h2>\n";
+$var1 = getenv('ENV_VAR');
+echo "ENV_VAR is $var1";
 ?>
